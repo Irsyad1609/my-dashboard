@@ -36,6 +36,18 @@ export default function Home() {
                 irsyad.eu adopts an open peering policy, all networks matching the technical requirements below are welcome to peer with us. We aim to establish reliable and mutually beneficial peering sessions whenever possible. 
                 All peering sessions with <strong>AS205018:AS-SET</strong> will advertise routes registered in the RIPE IRR database, ensuring transparency and consistency in routing.
               </p>
+                <div style={{ marginTop: '1rem' }}>
+                  <a
+                    href="/geofeeds.csv"
+                    download
+                    style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 'bold' }}
+                  >
+                    Geofeeds
+                  </a>
+                  <span style={{ marginLeft: '0.5rem', color: '#555' }}>
+                    (RFC 8805)
+                  </span>
+                </div>
             </PolicySectionCard>
 
             <PolicySectionCard title="Peering Requirements (General)">
