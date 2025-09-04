@@ -14,8 +14,9 @@ export function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false)
 
   const navItems = [
-    { name: "Network Operations", href: "/#network-ops" },
-    { name: "Looking Glass", href: "/looking-glass" },
+  { name: "Network Operations", href: "/#network-ops" },
+  { name: "Looking Glass", href: "/looking-glass" },
+  { name: "IPv6 Calculator", href: "https://ipv6calculator.as205018.net/", external: true },
     {
       name: "PeeringDB",
       href: "https://www.peeringdb.com/asn/205018",
