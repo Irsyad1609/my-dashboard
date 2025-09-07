@@ -15,7 +15,7 @@ export function Navbar() {
 
   const navItems = [
   { name: "Network Operations", href: "/#network-ops" },
-  { name: "Looking Glass", href: "/looking-glass" },
+  { name: "Looking Glass", href: "https://lg.as205018.net/", external: true },
   { name: "IPv6 Calculator", href: "https://ipv6calculator.as205018.net/", external: true },
     {
       name: "PeeringDB",
