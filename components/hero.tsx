@@ -56,12 +56,8 @@ export function Hero() {
             Peering Policy and Network Information
           </p>
 
-          {/* CTA Button */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
-          >
+          {/* CTA Buttons */}
+          <div className="flex flex-wrap justify-center gap-4">
             <Button
               asChild
               size="default"
@@ -77,7 +73,39 @@ export function Hero() {
                 <span>View on PeeringDB</span>
               </a>
             </Button>
-          </motion.div>
+
+            <Button
+              asChild
+              size="default"
+              className="bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/10 text-gray-900 dark:text-white px-6 py-3 text-base font-medium shadow-lg hover:shadow-xl transition-all duration-300 focus-ring"
+            >
+              <a
+                href="https://bgp.tools/as/205018"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2"
+              >
+                <Image src="/images/bgptools-logo.png" alt="BGPTools" width={18} height={18} className="h-4 w-4" />
+                <span>View on BGP.Tools</span>
+              </a>
+            </Button>
+
+            <Button
+              asChild
+              size="default"
+              className="bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/10 text-gray-900 dark:text-white px-6 py-3 text-base font-medium shadow-lg hover:shadow-xl transition-all duration-300 focus-ring"
+            >
+              <a
+                href="https://bgp.he.net/AS205018"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center space-x-2"
+              >
+                <Image src="/images/bgphe-logo.png" alt="bgp.he.net" width={18} height={18} className="h-4 w-4" />
+                <span>View on bgp.he.net</span>
+              </a>
+            </Button>
+          </div>
         </motion.div>
       </div>
     </section>
