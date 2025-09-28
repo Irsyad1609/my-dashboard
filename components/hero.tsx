@@ -61,7 +61,7 @@ export function Hero() {
             <Button
               asChild
               size="default"
-              className="bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/10 text-gray-900 dark:text-white px-6 py-3 text-base font-medium shadow-lg hover:shadow-xl transition-all duration-300 focus-ring"
+              className="bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/10 text-gray-900 dark:text-white px-6 py-3 text-base font-medium shadow-md hover:shadow-lg transition-all duration-300 focus-ring"
             >
               <a
                 href="https://www.peeringdb.com/asn/205018"
@@ -77,7 +77,7 @@ export function Hero() {
             <Button
               asChild
               size="default"
-              className="bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/10 text-gray-900 dark:text-white px-6 py-3 text-base font-medium shadow-lg hover:shadow-xl transition-all duration-300 focus-ring"
+              className="bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/10 text-gray-900 dark:text-white px-6 py-3 text-base font-medium shadow-md hover:shadow-lg transition-all duration-300 focus-ring"
             >
               <a
                 href="https://bgp.tools/as/205018"
@@ -93,7 +93,7 @@ export function Hero() {
             <Button
               asChild
               size="default"
-              className="bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/10 text-gray-900 dark:text-white px-6 py-3 text-base font-medium shadow-lg hover:shadow-xl transition-all duration-300 focus-ring"
+              className="bg-white/10 hover:bg-white/20 dark:bg-white/5 dark:hover:bg-white/10 backdrop-blur-md border border-white/20 dark:border-white/10 text-gray-900 dark:text-white px-6 py-3 text-base font-medium shadow-md hover:shadow-lg transition-all duration-300 focus-ring"
             >
               <a
                 href="https://bgp.he.net/AS205018"
